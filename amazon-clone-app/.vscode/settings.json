@@ -1,0 +1,5 @@
+{
+    "java.compile.nullAnalysis.mode": "automatic",
+    "cmake.sourceDirectory": "C:/Users/mstdh/Documents/Developments/AndroidDevelopment using flutter(fullstack)/Apps/AmazonClone/amazon-clone-app/linux",
+    "java.configuration.updateBuildConfiguration": "interactive"
+}
