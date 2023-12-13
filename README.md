@@ -62,7 +62,10 @@ To set up the Amazon Clone project, follow these steps:
 1. Open the Flutter app on your device or emulator.
 2. Browse products, add them to your cart, and make a purchase.
 3. Rate and review products.
-4. Check the deal of the day for special discounts.
+4. Manage orders and see analytics by changing user type to admin(make the changes in mongodb).
+5. Before running the app make sure to change ip address in uri in globals.dart file in constants folder of lib folder.
+6. Also change cloudinary details in admin-services.dart in sell-product functio.
+7. In backend change the mongodb uri in index.js
 
 ## Admin Panel
 
