@@ -6,8 +6,8 @@ const productRouter = require('./routes/product')
 const userRouter = require('./routes/user')
 
 
-const PORT = process.env.PORT|| 3000
-const DB = "mongodb+srv://extratdh:7Rl8sldvsTBuPcQj@cluster0.nhc3u0z.mongodb.net/?retryWrites=true&w=majority"
+const PORT = 3000
+const DB = "your-mongo-database-url"
 const app = express()
 app.use(express.json())
 app.use(authRouter)
