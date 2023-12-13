@@ -26,7 +26,7 @@ class AdminServices {
       required List<File> images}) async {
     final userProvider = Provider.of<UserProvider>(context, listen: false);
     try {
-      final cloudinary = CloudinaryPublic('dq6mv34wu', 'xt7eenem');
+      final cloudinary = CloudinaryPublic('your-cloudinary-details', 'your-cloudinary-details');
       List<String> imageUrl = [];
       for (var i = 0; i < images.length; i++) {
         CloudinaryResponse res = await cloudinary
